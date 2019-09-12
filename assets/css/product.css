@@ -1,0 +1,305 @@
+@font-face {
+  font-family: "quickSandBold";
+  src: url('../fonts/Quicksand-Bold.otf');
+}
+
+@font-face {
+  font-family: "quickSandRegular";
+  src: url('../fonts/Quicksand-Regular.otf');
+}
+
+@font-face {
+  font-family: "quickSandLight";
+  src: url('../fonts/Quicksand-Light.otf');
+}
+
+@font-face {
+  font-family: "quickSandItalic";
+  src: url('../fonts/Quicksand-Italic.otf');
+}
+
+.imgProduct{
+  margin-top: 60px;
+}
+
+.textProduct{
+  margin-top: 100px;
+  min-height: 500px;
+  padding: 25px;
+}
+
+.description{
+  font-family: 'quickSandRegular';
+}
+
+.media-body{
+  font-family: 'quickSandItalic';
+}
+
+.mt-0{
+  font-family: 'quickSandBold';
+}
+
+.textProduct h1{
+  margin-bottom: 20px;
+}
+
+.breadcrumb{
+  background-color: #71c7d5;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background-position: 0 100%, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 10px;
+    background-image: linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%), linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%);
+
+}
+
+#main .row{
+  margin: 0px;
+}
+
+
+.breadcrumb-item{
+  font-family: 'quicksandRegular';
+  font-size: 20px;
+}
+
+.breadcrumb-item a{
+  color: white;
+}
+
+.image-gallery {
+  margin: auto;
+  width: 100%;
+  position: relative;
+}
+.image-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+.image-1, .image-2, .image-3, .image-4 {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 1.2s ease-out;
+  background-position: center center;
+}
+.thumbnails {
+  width: 100%;
+  display: flex;
+}
+.thumbnails label {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  background-size: cover;
+  margin: 0;
+  flex: 1 1 150px;
+  cursor: pointer;
+}
+#image1:checked + #image2 + #image3 + #image4 + .image-container > .image-1,
+#image2:checked + #image3 + #image4 + .image-container > .image-2,
+#image3:checked + #image4 + .image-container > .image-3,
+#image4:checked + .image-container > .image-4 {
+  opacity:1;
+}
+.image-gallery input[type="radio"] {
+  position: absolute;
+  top: 370px;
+  z-index: 100;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  background-color: #f1f1f133;
+  color: #666;
+  height: 16px;
+  width: 16px;
+  border: 3px solid #f1f1f1;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+.image-gallery input[type="radio"]:hover {
+  background-color: #f7f7f780;
+}
+.image-gallery input[type="radio"]:checked {
+  background-color: #f1f1f1;
+}
+.image-gallery input[type="radio"]:nth-of-type(1) {
+  left: 50%;
+  margin-left: -36px;
+}
+.image-gallery input[type="radio"]:nth-of-type(2) {
+  left: 50%;
+  margin-left: -12px;
+}
+.image-gallery input[type="radio"]:nth-of-type(3) {
+  left: 50%;
+  margin-left: 12px;
+}
+.image-gallery input[type="radio"]:nth-of-type(4) {
+  left: 50%;
+  margin-left: 36px;
+}
+
+.macaronProduct img {
+  width: 100%;
+}
+
+.statusBar{
+  background-color: green;
+  height: 50px;
+}
+
+.media img{
+  height: 64px;
+  width: 64px;
+}
+
+.media{
+  background-color: #71C7D5;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.price{
+  font-size: 65px;
+  text-align: center;
+  font-family: 'quickSandBold';
+}
+
+h1{
+    font-size: 65px;
+    font-family: 'quickSandBold';
+    color: #008000;
+    text-decoration: underline;
+}
+
+#suggestion{
+  border-top: green solid 30px;
+  height: 300px;
+  background-color: #e8e8e8;
+}
