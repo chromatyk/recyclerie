@@ -5,7 +5,7 @@
   <!--        <meta name="generator" content="Jekyll v3.8.5" />-->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="Site de la recyclerie du pays Nayonnais" />
+  <meta name="description" content="Site de la recyclerie du Pays Noyonnais" />
   <meta name="publisher" content="Kaiartsu">
   <meta name="author" content="Kaiartsu" />
   <meta name="reply-to" content="contact@kaiartsu.fr">
@@ -15,6 +15,9 @@
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
   <link href="assets/css/product.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/footer.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/animate.css" rel="stylesheet" type="text/css"/>
+  <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
@@ -93,16 +96,16 @@
           <h1>Nom du produit</h1>
           <!-- Barre état -->
           <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-12">
               <div class="media">
-                <img src="assets/images/logo.png" class="mr-3" alt="...">
+                <img src="assets/images/placeholder.jpg" class="mr-3" alt="...">
                 <div class="media-body">
                   <h5 class="mt-0">Jean michel de la Compta</h5>
                   A refait ce meuble-ci.
                 </div>
               </div>
             </div>
-            <div class="col-lg-2 offset-lg-1 macaronProduct">
+            <div class="col-lg-2 offset-lg-1 col-md-2 offset-md-1 col-sm-2 offset-sm-1 col-5 offset-1 macaronProduct">
               <img src="assets/images/Macaron_Vintage.png" />
             </div>
           </div>
@@ -128,14 +131,56 @@
       </div>
       <div class="row">
         <div class="col-lg-12" id="suggestion">
-
+          <div class="row">
+            <div class="offset-lg-1 col-lg-8">
+              <h3>La recyclerie vous propose aussi..</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <!-- Fin du contenu Produit -->
     </div>
   </div>
+  <?php
+    include 'vues/footer.php';
+  ?>
   <script src="assets/lib/bootstrap/js/bootstrap.js" type="text/javascript" /></script>
   <script src="assets/js/main.js" type="text/javascript"></script>
   <script src="assets/js/product.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
 </body>
 </html>

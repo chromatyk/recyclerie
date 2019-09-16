@@ -159,8 +159,8 @@
 }
 
 .media img{
-  height: 64px;
-  width: 64px;
+  height: 80px;
+  width: 80px;
 }
 
 .media{
@@ -299,7 +299,26 @@ h1{
 }
 
 #suggestion{
-  border-top: green solid 30px;
-  height: 300px;
+  border-top: green solid 20px;
+  min-height: 300px;
   background-color: #e8e8e8;
+  padding-bottom: 50px;
+}
+
+.card{
+  margin-left: 100px;
+}
+
+#suggestion h3{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: 'quickSandBold';
+  font-size: 38px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .card {
+    margin-left: 20px;
+  }
 }
