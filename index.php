@@ -44,192 +44,215 @@
       <div class="row">
         <div class="col-12">
           <div id="carousel">
-          <div class="card" style="width: 18rem;">
-            <a href="product.php">
-            <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-            <div class="card-body">
-              <div class="vintage">
-              </div>
-              <div id="row" class="row">
-                <div class="col-5">
-                  <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                </div>
-                  <div class="col-7">
-                    <h3 class="card-title">Article 4</h3>
-                    <p class="card-text">Prix : 60euros</p>
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
                   </div>
-              </div>
-            </div>
-            </a>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <a href="product.php">
-            <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-            <div class="card-body">
-              <div class="vintage">
-              </div>
-              <div id="row" class="row">
-                <div class="col-5">
-                  <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                </div>
-                  <div class="col-7">
-                    <h3 class="card-title">Article 4</h3>
-                    <p class="card-text">Prix : 60euros</p>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
                   </div>
-              </div>
-            </div>
-            </a>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <a href="product.php">
-            <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-            <div class="card-body">
-              <div class="vintage">
-              </div>
-              <div id="row" class="row">
-                <div class="col-5">
-                  <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
                 </div>
-                  <div class="col-7">
-                    <h3 class="card-title">Article 4</h3>
-                    <p class="card-text">Prix : 60euros</p>
-                  </div>
-              </div>
+              </a>
             </div>
-            </a>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <a href="product.php">
-            <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-            <div class="card-body">
-              <div class="vintage">
-              </div>
-              <div id="row" class="row">
-                <div class="col-5">
-                  <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
                 </div>
-                  <div class="col-7">
-                    <h3 class="card-title">Article 4</h3>
-                    <p class="card-text">Prix : 60euros</p>
-                  </div>
-              </div>
+              </a>
             </div>
-            </a>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <a href="product.php">
-            <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-            <div class="card-body">
-              <div class="vintage">
-              </div>
-              <div id="row" class="row">
-                <div class="col-5">
-                  <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
                 </div>
-                  <div class="col-7">
-                    <h3 class="card-title">Article 4</h3>
-                    <p class="card-text">Prix : 60euros</p>
-                  </div>
-              </div>
+              </a>
             </div>
-            </a>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <a href="product.php">
-            <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-            <div class="card-body">
-              <div class="vintage">
-              </div>
-              <div id="row" class="row">
-                <div class="col-5">
-                  <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
                 </div>
-                  <div class="col-7">
-                    <h3 class="card-title">Article 4</h3>
-                    <p class="card-text">Prix : 60euros</p>
-                  </div>
-              </div>
+              </a>
             </div>
-            </a>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <a href="product.php">
-            <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-            <div class="card-body">
-              <div class="vintage">
-              </div>
-              <div id="row" class="row">
-                <div class="col-5">
-                  <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
                 </div>
-                  <div class="col-7">
-                    <h3 class="card-title">Article 4</h3>
-                    <p class="card-text">Prix : 60euros</p>
-                  </div>
-              </div>
+              </a>
             </div>
-            </a>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <a href="product.php">
-            <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-            <div class="card-body">
-              <div class="vintage">
-              </div>
-              <div id="row" class="row">
-                <div class="col-5">
-                  <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
                 </div>
-                  <div class="col-7">
-                    <h3 class="card-title">Article 4</h3>
-                    <p class="card-text">Prix : 60euros</p>
-                  </div>
-              </div>
+              </a>
             </div>
-            </a>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <a href="product.php">
-            <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-            <div class="card-body">
-              <div class="vintage">
-              </div>
-              <div id="row" class="row">
-                <div class="col-5">
-                  <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
                 </div>
-                  <div class="col-7">
-                    <h3 class="card-title">Article 4</h3>
-                    <p class="card-text">Prix : 60euros</p>
-                  </div>
-              </div>
+              </a>
             </div>
-            </a>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <a href="product.php">
-            <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-            <div class="card-body">
-              <div class="vintage">
-              </div>
-              <div id="row" class="row">
-                <div class="col-5">
-                  <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
                 </div>
-                  <div class="col-7">
-                    <h3 class="card-title">Article 4</h3>
-                    <p class="card-text">Prix : 60euros</p>
-                  </div>
-              </div>
+              </a>
             </div>
-            </a>
-          </div>
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="lastProducts">
-
+    <div class="">
+      <div class="row">
+        <div class="col-12 greenBand">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 ">
+          <div class="row hours">
+            <div class="offset-2 col-4 textHours">
+              <p>Dépôts:</p>
+              <p>Du Lundi au Vendredi <br> de 8h30 à 12h15 et de 13h30 à 17h15</p>
+              <p>Le Samedi de 10h à 17h</p>
+            </div>
+              <div class="offset-2 col-4 textHours">
+                <p>L'atelier de vente :</p>
+                <p>Mercredi et Vendredi <br> de 13h30 à 17h30</p>
+                <p>Le Samedi de 10h à 17h30</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 greenBand">
+        </div>
+      </div>
     </div>
   </div>
   <script src="assets/lib/bootstrap/js/bootstrap.js" type="text/javascript" /></script>
