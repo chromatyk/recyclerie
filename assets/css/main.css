@@ -208,3 +208,20 @@ color : white;
 #carousel div{
   width:100%;
 }
+.vintage{
+  max-height:20px;
+  background-color: #721726;
+}
+.card-body{
+  padding: 0;
+}
+#macaron{
+  width:100%;
+}
+#row{
+  margin-top: 50px;
+}
+.card-title, .card-text{
+  font-size: 20px;
+  font-family: 'quickSand';
+}
