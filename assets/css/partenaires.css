@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "quickSandBold";
+  src: url('../fonts/Quicksand-Bold.otf');
+}
+
+@font-face {
+  font-family: "quickSandRegular";
+  src: url('../fonts/Quicksand-Regular.otf');
+}
+
+@font-face {
+  font-family: "quickSandLight";
+  src: url('../fonts/Quicksand-Light.otf');
+}
+
+@font-face {
+  font-family: "quickSandItalic";
+  src: url('../fonts/Quicksand-Italic.otf');
+}
+
+#main{
+  padding-bottom: 60px;
+}
+
+
+
+.kaiPartenaire img{
+  width: 100%;
+  filter: grayscale(1);
+  transition: 500ms;
+
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #202020;
+}
+
+.kaiPartenaire:hover > img{
+  filter: grayscale(0);
+}
+
+.préambule{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.préambule h1{
+  font-family: 'quickSandBold';
+}
+
+.préambule p{
+  font-family: 'quickSandRegular';
+}

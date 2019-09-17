@@ -11,7 +11,7 @@
   <meta name="reply-to" content="contact@kaiartsu.fr">
   <title>Accueil | Recyclerie du Pays Noyonnais | Hauts-de-France</title>
   <!-- Link CSS -->
-  <link rel="shortcut icon" type="assets/images/logo/fav.png" href="assets/images/Logo.png"/>
+  <link rel="shortcut icon" type="assets/images/favicon.png" href="assets/images/favicon.png"/>
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
   <link href="assets/css/product.css" rel="stylesheet" type="text/css"/>
