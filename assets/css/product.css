@@ -294,12 +294,12 @@ img.hover-shadow {
 h1{
     font-size: 65px;
     font-family: 'quickSandBold';
-    color: #008000;
+    color: #458D4D;
     text-decoration: underline;
 }
 
 #suggestion{
-  border-top: green solid 20px;
+  border-top: #73C8D5 solid 20px;
   min-height: 300px;
   background-color: #e8e8e8;
   padding-bottom: 50px;
@@ -316,10 +316,8 @@ h1{
   font-size: 38px;
 }
 
-.scrolled{
-  background-color: #202020 !important;
-  border-bottom: 6px solid #008000;
-  padding-top: 0px;
+.card-body{
+  height: auto;
 }
 
 

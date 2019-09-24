@@ -1,15 +1,13 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <!--        <base href="https://www.villeinfo.fr" />-->
-  <!--        <meta name="generator" content="Jekyll v3.8.5" />-->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="Site de la recyclerie du Pays Noyonnais" />
   <meta name="publisher" content="Kaiartsu">
   <meta name="author" content="Kaiartsu" />
   <meta name="reply-to" content="contact@kaiartsu.fr">
-  <title>Accueil | Recyclerie du Pays Noyonnais | Hauts-de-France</title>
+  <title>Nom du produit | Recyclerie du Pays Noyonnais | Hauts-de-France</title>
   <!-- Link CSS -->
   <link rel="shortcut icon" type="assets/images/favicon.png" href="assets/images/favicon.png"/>
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
@@ -29,7 +27,7 @@
       <!-- Fil d'ariane -->
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.php">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="index2.php">Accueil</a></li>
           <li class="breadcrumb-item"><a href="#">Boutique</a></li>
           <li class="breadcrumb-item active" aria-current="page">Nom du Produit</li>
         </ol>
@@ -138,36 +136,76 @@
           </div>
           <div class="row">
             <div class="card" style="width: 18rem;">
-              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
             <div class="card" style="width: 18rem;">
-              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
             <div class="card" style="width: 18rem;">
-              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
             <div class="card" style="width: 18rem;">
-              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
