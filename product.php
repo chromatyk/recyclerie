@@ -1,15 +1,13 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <!--        <base href="https://www.villeinfo.fr" />-->
-  <!--        <meta name="generator" content="Jekyll v3.8.5" />-->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="Site de la recyclerie du Pays Noyonnais" />
   <meta name="publisher" content="Kaiartsu">
   <meta name="author" content="Kaiartsu" />
   <meta name="reply-to" content="contact@kaiartsu.fr">
-  <title>Accueil | Recyclerie du Pays Noyonnais | Hauts-de-France</title>
+  <title>Nom du produit | Recyclerie du Pays Noyonnais | Hauts-de-France</title>
   <!-- Link CSS -->
   <link rel="shortcut icon" type="assets/images/favicon.png" href="assets/images/favicon.png"/>
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
@@ -29,7 +27,7 @@
       <!-- Fil d'ariane -->
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.php">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="index2.php">Accueil</a></li>
           <li class="breadcrumb-item"><a href="#">Boutique</a></li>
           <li class="breadcrumb-item active" aria-current="page">Nom du Produit</li>
         </ol>

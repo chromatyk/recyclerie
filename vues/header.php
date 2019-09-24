@@ -8,7 +8,7 @@
       </div>
     <ul class="navbar-nav col-lg-10">
       <li class="nav-item col-4 col-md-4 col-lg-2 ">
-        <a class="nav-link" id="activePage" href="#">Accueil</a>
+        <a class="nav-link" id="activePage" href="index2.php">Accueil</a>
       </li>
       <li class="nav-item col-4 col-lg-2">
         <a class="nav-link" href="#">Sensibilisation</a>
