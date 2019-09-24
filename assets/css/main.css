@@ -308,6 +308,14 @@ ul{ /* Petite barre sur le côté du menu */
   font-family: 'quickSandRegular';
 }
 
+.card-title {
+  font-family: 'quickSandBold';
+  color: black;
+}
+
+.card-text{
+  color: black;
+}
 
 /* FIN CARROUSEL */
 
