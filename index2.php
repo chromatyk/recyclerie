@@ -58,7 +58,43 @@
                       <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
                     </div>
                     <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
+                      <h3 class="card-title">Article 1</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 2</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 3</h3>
                       <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
@@ -94,7 +130,7 @@
                       <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
                     </div>
                     <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
+                      <h3 class="card-title">Article 5</h3>
                       <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
@@ -112,7 +148,7 @@
                       <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
                     </div>
                     <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
+                      <h3 class="card-title">Article 6</h3>
                       <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
@@ -130,7 +166,7 @@
                       <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
                     </div>
                     <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
+                      <h3 class="card-title">Article 7</h3>
                       <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
@@ -148,7 +184,7 @@
                       <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
                     </div>
                     <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
+                      <h3 class="card-title">Article 8</h3>
                       <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
@@ -166,7 +202,7 @@
                       <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
                     </div>
                     <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
+                      <h3 class="card-title">Article 9</h3>
                       <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
@@ -184,43 +220,7 @@
                       <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
                     </div>
                     <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
+                      <h3 class="card-title">Article 10</h3>
                       <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
@@ -277,7 +277,7 @@
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F1-2" style="background-color:#00a7c5;">
           <h3>Réduire les volumes de déchets envoyés à l'incinération</h3>
-          <i class="fas fa-recycle"></i>
+          <i class="fas fa-fire"></i>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F1-3" style="background-color:#00c2bb;">
           <h3>Réduire les gaspillages, adopter de nouveaux comportement</h3>
@@ -287,7 +287,7 @@
       <div class="row lineAxes">
         <div id="firstMission" class="col-lg-3 mx-auto F2-1" style="background-color:#008f7a;">
           <h3>Transformer les encombrants en ressources</h3>
-          <i class="fab fa-pagelines"></i>
+          <i class="fas fa-dolly"></i>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F2-2" style="background-color:#00817d;">
           <h3>Récupérer les matières premières</h3>
@@ -295,7 +295,7 @@
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F2-3" style="background-color:#00737a;">
           <h3>Réduire le coût de la collecte des déchets ménagers</h3>
-          <i class="fas fa-dumpster"></i>
+          <i class="fas fa-euro-sign"></i>
         </div>
         <div class="col-lg-3 imgMission">
           <img src="assets/images/Fond.jpg" alt="">
@@ -309,15 +309,15 @@
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F3-1" style="background-color:#845ec2;">
           <h3>Développer de nouveaux métiers</h3>
-          <i class="fab fa-pagelines"></i>
+          <i class="fas fa-briefcase"></i>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F3-2" style="background-color:#d65db1;">
           <h3>Mobiliser des jeunes et adultes en situation d'exclusion et les accompagner dans la préparation de leur avenir professionnel et leur projet de vie</h3>
-          <i class="fas fa-recycle"></i>
+          <i class="fas fa-child"></i>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F3-3" style="background-color:#ff6f91;">
           <h3>Lieu d'échange et de rencontre</h3>
-          <i class="fas fa-dumpster"></i>
+          <i class="fas fa-hands-helping"></i>
         </div>
       </div>
     </div>

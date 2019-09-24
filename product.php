@@ -138,36 +138,76 @@
           </div>
           <div class="row">
             <div class="card" style="width: 18rem;">
-              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
             <div class="card" style="width: 18rem;">
-              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
             <div class="card" style="width: 18rem;">
-              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
             <div class="card" style="width: 18rem;">
-              <img src="assets/images/Logo.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+              <a href="product.php">
+                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+                <div class="card-body">
+                  <div class="vintage">
+                  </div>
+                  <div id="row" class="row">
+                    <div class="col-5">
+                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
+                    </div>
+                    <div class="col-7">
+                      <h3 class="card-title">Article 4</h3>
+                      <p class="card-text">Prix : 60euros</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
