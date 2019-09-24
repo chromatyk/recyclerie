@@ -27,7 +27,7 @@
       <!-- Fil d'ariane -->
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index2.php">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="index.php">Accueil</a></li>
           <li class="breadcrumb-item"><a href="#">Boutique</a></li>
           <li class="breadcrumb-item active" aria-current="page">Nom du Produit</li>
         </ol>
