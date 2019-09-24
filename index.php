@@ -38,198 +38,35 @@
         </div>
       </div>
     </div>
-    <div class="lastProducts">
-      <div class="row">
-        <div class="col-12">
-          <h2 id="newsProducts">Nouveautés en boutique</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 carourou">
-          <div id="carousel">
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img class="d-block w-100" src="assets/images/news.jpg" alt="First slide">
+      <div class="contenuItem">
+        <div class="row">
+          <div class="offset-2 col-8">
+            <h1>TEEEEEESsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssTvrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr</h1>
           </div>
         </div>
       </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/Fond.jpg" alt="Second slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
     </div>
     <div class="">
       <div class="row">
