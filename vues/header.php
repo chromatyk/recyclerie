@@ -10,9 +10,16 @@
       <li class="nav-item col-4 col-md-4 col-lg-2 ">
         <a class="nav-link" id="activePage" href="index.php">Accueil</a>
       </li>
-      <li class="nav-item col-4 col-lg-2">
-        <a class="nav-link" href="#">Sensibilisation</a>
-      </li>
+      <li class="nav-item dropdown col-4 col-lg-2">
+  <a class="nav-link dropdown-toggle" href="missions.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Missions
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <a class="dropdown-item" href="missionEnv.php">Mission environnementale</a>
+    <a class="dropdown-item" href="#">Mission économie</a>
+    <a class="dropdown-item" href="#">Mission sociale</a>
+  </div>
+</li>
       <li class="nav-item col-4 col-lg-2">
         <a class="nav-link" href="#">Kézako</a>
       </li>

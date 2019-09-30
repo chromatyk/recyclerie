@@ -20,6 +20,9 @@
         <hr />
         <ul>
           <li>
+            <a href="partenaires.php">Partenaires</a>
+          </li>
+          <li>
             <a href="mentions_legales">Mentions Légales</a>
           </li>
           <li>

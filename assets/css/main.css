@@ -324,7 +324,7 @@ ul{ /* Petite barre sur le côté du menu */
 
 .greenBand{
   height:20px;
-  background-color: green;
+  background-color: #73C8D5;
 }
 
 .textHours{
@@ -367,6 +367,7 @@ ul{ /* Petite barre sur le côté du menu */
 .lineAxes{
   border-top: solid 1px black;
   border-bottom: solid 1px black;
+  margin-bottom: 200px;
 }
 .textAxes{
   padding-top: 8vh;
@@ -386,6 +387,7 @@ ul{ /* Petite barre sur le côté du menu */
 
 .imgMission{
   position: relative;
+  overflow: hidden;
 }
 
 .imgMission img{
@@ -394,10 +396,8 @@ ul{ /* Petite barre sur le côté du menu */
 }
 
 .imgMission h3{
-  position: absolute;
-  top: 38%;
-  left: 25%;
-  color: whitesmoke;
+
+  color: black;
   font-size: 35px;
   font-family: 'quickSandBold';
 }
@@ -469,4 +469,16 @@ ul{ /* Petite barre sur le côté du menu */
 }
 .F3-3:hover{
   background-color: #ff9671 !important;
+}
+
+.nomMission{
+  background-color: whitesmoke;
+  width: 800px;
+  top: 38%;
+  left: -200px;
+    position: absolute;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+  transform: rotate(-10deg);
 }
