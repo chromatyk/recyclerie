@@ -18,6 +18,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v4.0"></script>
   <div class="container-fluid">
     <?php
     include 'vues/header.php';
@@ -240,20 +242,23 @@
         <div class="col-12 imgHours">
           <div class="hours">
             <div class="row">
-              <div class="col-12">
+              <div class="col-lg-8">
                 <h2>Nos Horaires</h2>
+                <div class="row">
+                  <div class="col-12 offset-lg-2 col-lg-4 textHours">
+                    <p class="upHours">Dépôts:</p>
+                    <p>Du Lundi au Vendredi <br> de 8h30 à 12h15 et de 13h30 à 17h15</p>
+                    <p>Le Samedi de 10h à 17h</p>
+                  </div>
+                  <div class="col-12 offset-lg-2 col-lg-4 textHours">
+                    <p class="upHours">L'atelier de vente :</p>
+                    <p>Mercredi et Vendredi <br> de 13h30 à 17h30</p>
+                    <p>Le Samedi de 10h à 17h30</p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-12 offset-lg-2 col-lg-4 textHours">
-                <p class="upHours">Dépôts:</p>
-                <p>Du Lundi au Vendredi <br> de 8h30 à 12h15 et de 13h30 à 17h15</p>
-                <p>Le Samedi de 10h à 17h</p>
-              </div>
-              <div class="col-12 offset-lg-2 col-lg-4 textHours">
-                <p class="upHours">L'atelier de vente :</p>
-                <p>Mercredi et Vendredi <br> de 13h30 à 17h30</p>
-                <p>Le Samedi de 10h à 17h30</p>
+              <div class="col-lg-4">
+                <div class="fb-post" data-href="https://www.facebook.com/20531316728/posts/10154009990506729/" data-width="350" data-show-text="true"><blockquote cite="https://developers.facebook.com/20531316728/posts/10154009990506729/" class="fb-xfbml-parse-ignore">Publiée par <a href="https://www.facebook.com/facebook/">Facebook</a> sur&nbsp;<a href="https://developers.facebook.com/20531316728/posts/10154009990506729/">Jeudi 27 août 2015</a></blockquote></div>
               </div>
             </div>
           </div>
@@ -268,54 +273,60 @@
       <h2>Nos missions principales</h2>
       <div class="row lineAxes">
         <div class="col-lg-3 imgMission">
-          <img src="assets/images/Fond.jpg" alt="">
-          <h3 class="mx-auto">Environnement</h3>
+          <img src="assets/images/economie.jpg" alt="">
+          <div class=" nomMission">
+              <h3 class="mx-auto">ENVIRONNEMENT</h3>
+          </div>
         </div>
-        <div id="firstMission" class="col-lg-3 mx-auto F1-1" style="background-color:#0089ba;">
+        <div id="firstMission" class="col-lg-3 mx-auto F1-1" style="background-color:#74BDED;">
           <h3 class="align-middle">Préserver les ressources et les milieux naturels</h3>
           <i class="fab fa-pagelines"></i>
         </div>
-        <div id="firstMission" class="col-lg-3 mx-auto F1-2" style="background-color:#00a7c5;">
+        <div id="firstMission" class="col-lg-3 mx-auto F1-2" style="background-color:#74C9D6;">
           <h3>Réduire les volumes de déchets envoyés à l'incinération</h3>
           <i class="fas fa-fire"></i>
         </div>
-        <div id="firstMission" class="col-lg-3 mx-auto F1-3" style="background-color:#00c2bb;">
+        <div id="firstMission" class="col-lg-3 mx-auto F1-3" style="background-color:#74EDDC;">
           <h3>Réduire les gaspillages, adopter de nouveaux comportement</h3>
           <i class="fas fa-dumpster"></i>
         </div>
       </div>
       <div class="row lineAxes">
-        <div id="firstMission" class="col-lg-3 mx-auto F2-1" style="background-color:#008f7a;">
+        <div id="firstMission" class="col-lg-3 mx-auto F2-1" style="background-color:#D179ED;">
           <h3>Transformer les encombrants en ressources</h3>
           <i class="fas fa-dolly"></i>
         </div>
-        <div id="firstMission" class="col-lg-3 mx-auto F2-2" style="background-color:#00817d;">
+        <div id="firstMission" class="col-lg-3 mx-auto F2-2" style="background-color:#A578D6;">
           <h3>Récupérer les matières premières</h3>
           <i class="fas fa-recycle"></i>
         </div>
-        <div id="firstMission" class="col-lg-3 mx-auto F2-3" style="background-color:#00737a;">
+        <div id="firstMission" class="col-lg-3 mx-auto F2-3" style="background-color:#9179ED;">
           <h3>Réduire le coût de la collecte des déchets ménagers</h3>
           <i class="fas fa-euro-sign"></i>
         </div>
         <div class="col-lg-3 imgMission">
-          <img src="assets/images/Fond.jpg" alt="">
-          <h3 class="mx-auto">ÉCONOMIE</h3>
+          <img src="assets/images/environnement.jpg" alt="">
+          <div class=" nomMission">
+              <h3 class="mx-auto">ÉCONOMIE</h3>
+          </div>
         </div>
       </div>
       <div class="row lineAxes">
         <div class="col-lg-3 imgMission">
-          <img src="assets/images/Fond.jpg" alt="">
-          <h3 class="mx-auto">SOCIAL</h3>
+          <img src="assets/images/social.jpg" alt="">
+          <div class=" nomMission">
+              <h3 class="mx-auto">SOCIAL</h3>
+          </div>
         </div>
-        <div id="firstMission" class="col-lg-3 mx-auto F3-1" style="background-color:#845ec2;">
+        <div id="firstMission" class="col-lg-3 mx-auto F3-1" style="background-color:#EDC45A;">
           <h3>Développer de nouveaux métiers</h3>
           <i class="fas fa-briefcase"></i>
         </div>
-        <div id="firstMission" class="col-lg-3 mx-auto F3-2" style="background-color:#d65db1;">
+        <div id="firstMission" class="col-lg-3 mx-auto F3-2" style="background-color:#D6A75D;">
           <h3>Mobiliser des jeunes et adultes en situation d'exclusion et les accompagner dans la préparation de leur avenir professionnel et leur projet de vie</h3>
           <i class="fas fa-child"></i>
         </div>
-        <div id="firstMission" class="col-lg-3 mx-auto F3-3" style="background-color:#ff6f91;">
+        <div id="firstMission" class="col-lg-3 mx-auto F3-3" style="background-color:#EDA25A;">
           <h3>Lieu d'échange et de rencontre</h3>
           <i class="fas fa-hands-helping"></i>
         </div>
