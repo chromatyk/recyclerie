@@ -151,7 +151,10 @@ ul{ /* Petite barre sur le côté du menu */
 }
 
 .pictureFilter{
+  min-height: 10vw;
+  width: 100%;
   background-color: rgba(0,0,0,0.5);
+  position: absolute;
 }
 
 #title{
@@ -204,7 +207,6 @@ ul{ /* Petite barre sur le côté du menu */
 .fill:hover:before {
   right: 0;
 }
-
 /* FIN NEWS */
 
 
@@ -236,7 +238,6 @@ ul{ /* Petite barre sur le côté du menu */
   left: 0;
   top: 50%;
 }
-
 #carousel {
   margin-top: 50px;
 }
