@@ -148,8 +148,6 @@ ul{ /* Petite barre sur le côté du menu */
   background-size: cover;
   border-bottom-left-radius: 20vw;
   border-bottom-right-radius: 20vw;
-  position: absolute;
-  z-index: 10000;
 }
 
 .pictureFilter{
@@ -215,9 +213,8 @@ ul{ /* Petite barre sur le côté du menu */
 /* DÉBUT CARROUSEL */
 
 .lastProducts{
-  min-height: 100vh;
+  min-height: 40vh;
   width: 100%;
-  background-color: brown;
 }
 
 .carourou{
