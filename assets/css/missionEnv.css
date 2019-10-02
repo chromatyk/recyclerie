@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Splatch";
-  src: url('../fonts/Splatch.ttf');
+  src: url('../fonts/LifeSavers-Bold.ttf');
 }
 
 
@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
     background-size: 100% 10px;
     background-image: linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%), linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%);
-
+    margin-bottom: 0;
 }
 
 #main .row{
@@ -33,17 +33,158 @@
   color: white;
 }
 
-.blbl{
-  height: 100px;
-  background-image: url('../images/social.jpg');
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 150px;
+  right: 10px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+.child {
+  height: 101vh;
   background-size: cover;
+  background-position: center;
+  transition: 500ms;
 }
 
-.blbl h1{
-  position: absolute;
-  bottom: -60px;
-  left: 20px;
+#img1:hover .child,
+#img1:focus .child{
+  transform: scale(1.2);
+}
+
+.panelOP {
+	min-height:100vh;
+	border-bottom:1px solid #666;
+}
+.home {
+	background: #65c2cf;
+	background:hsl(184,65%,49%);
+}
+.overview {
+	background:#e14456;
+	background:hsl(350,92%,59%);
+
+}
+.configuration {
+	background:#6dcb94;
+	background:hsl(158,58%,52%);
+}
+.options {
+	background:#ec8200;
+	background:hsl(28,100%,52%);
+}
+.methods {
+	background:#64a0d4;
+	background:hsl(200,60%,55%);
+}
+#img1{
+  height:101vh;
+  overflow: hidden;
+  padding: 0;
+}
+
+#EnvOP{
+  padding: 40px;
+}
+
+#EnvOP h1{
   font-family: 'Splatch';
-  color: #202020;
-  font-size: 50px;
+  font-size: 70px;
+  line-height: 70px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#EnvOP p{
+  color: whitesmoke;
+  font-family: 'quicksandRegular';
+  text-align: left;
+  font-size: 16px;
+}
+
+
+#ressourcesNaturelles{
+  padding: 40px;
+  padding-top: 70px;
+}
+
+#ressourcesNaturelles h2{
+  font-family: 'Splatch';
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#ressourcesNaturelles p{
+  color: whitesmoke;
+  font-family: 'quicksandRegular';
+  text-align: left;
+  font-size: 16px;
+}
+
+
+#déchetsFeu{
+  padding: 40px;
+  padding-top: 70px;
+}
+
+#déchetsFeu h2{
+  font-family: 'Splatch';
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#déchetsFeu p{
+  color: whitesmoke;
+  font-family: 'quicksandRegular';
+  text-align: left;
+  font-size: 16px;
+}
+
+
+#gaspillage{
+  padding: 40px;
+  padding-top: 70px;
+}
+
+#gaspillage h2{
+  font-family: 'Splatch';
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#gaspillage p{
+  color: whitesmoke;
+  font-family: 'quicksandRegular';
+  text-align: left;
+  font-size: 16px;
 }

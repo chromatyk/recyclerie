@@ -15,21 +15,21 @@
         </p>
         <button class="fill" onclick="window.location.href='mailto:san@antonio.net'">Contact</button>
       </div>
-      <div class="col-xs12 col-sm-12 col-md-6 col-lg-4">
+      <div class="col-xs12 col-sm-12 col-md-6 col-lg-4 linkOP">
         <h4>Liens pratiques</h4>
         <hr />
         <ul>
           <li>
-            <a href="partenaires.php">Partenaires</a>
+            <a class="link" href="partenaires.php">Partenaires</a>
           </li>
           <li>
-            <a href="mentions_legales">Mentions Légales</a>
+            <a class="link" href="mentions_legales">Mentions Légales</a>
           </li>
           <li>
-            <a href="charte_de_confidencialite">Charte de confidentialité</a>
+            <a class="link" href="charte_de_confidencialite">Charte de confidentialité</a>
           </li>
           <li>
-            <a href="nous_contacter">Contact</a>
+            <a class="link" href="nous_contacter">Contact</a>
           </li>
         </ul>
       </div>

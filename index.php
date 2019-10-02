@@ -282,29 +282,29 @@
           </div>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F1-1" style="background-color:#74BDED;">
-          <h3 class="align-middle">Préserver les ressources et les milieux naturels</h3>
+          <a href="missionEnv.php#ressourcesNaturelles"><h3>Préserver les ressources et les milieux naturels</h3></a>
           <i class="fab fa-pagelines"></i>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F1-2" style="background-color:#74C9D6;">
-          <h3>Réduire les volumes de déchets envoyés à l'incinération</h3>
+          <a href="missionEnv.php#déchetsFeu"><h3>Réduire les volumes de déchets envoyés à l'incinération</h3></a>
           <i class="fas fa-fire"></i>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F1-3" style="background-color:#74EDDC;">
-          <h3>Réduire les gaspillages, adopter de nouveaux comportement</h3>
+          <a href="missionEnv.php#gaspillage"><h3>Réduire les gaspillages, adopter de nouveaux comportement</h3></a>
           <i class="fas fa-dumpster"></i>
         </div>
       </div>
       <div class="row lineAxes">
         <div id="firstMission" class="col-lg-3 mx-auto F2-1" style="background-color:#D179ED;">
-          <h3>Transformer les encombrants en ressources</h3>
+          <a href="missionEco.php#gaspillage"><h3>Transformer les encombrants en ressources</h3></a>
           <i class="fas fa-dolly"></i>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F2-2" style="background-color:#A578D6;">
-          <h3>Récupérer les matières premières</h3>
+          <a href="missionEco.php#déchetsFeu"><h3>Récupérer les matières premières</h3></a>
           <i class="fas fa-recycle"></i>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F2-3" style="background-color:#9179ED;">
-          <h3>Réduire le coût de la collecte des déchets ménagers</h3>
+          <a href="missionEco.php#ressourcesNaturelles"><h3>Réduire le coût de la collecte des déchets ménagers</h3></a>
           <i class="fas fa-euro-sign"></i>
         </div>
         <div class="col-lg-3 imgMission">
@@ -314,7 +314,7 @@
           </div>
         </div>
       </div>
-      <div class="row lineAxes">
+      <div class="row lineAxes" id="last">
         <div class="col-lg-3 imgMission">
           <img src="assets/images/social.jpg" alt="">
           <div class=" nomMission">
@@ -322,15 +322,15 @@
           </div>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F3-1" style="background-color:#EDC45A;">
-          <h3>Développer de nouveaux métiers</h3>
+          <a href="missionSocial.php#ressourcesNaturelles"><h3>Développer de nouveaux métiers</h3></a>
           <i class="fas fa-briefcase"></i>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F3-2" style="background-color:#D6A75D;">
-          <h3>Mobiliser des jeunes et adultes en situation d'exclusion et les accompagner dans la préparation de leur avenir professionnel et leur projet de vie</h3>
+          <a href="missionSocial.php#déchetsFeu"><h3>Mobiliser des jeunes et adultes en situation d'exclusion et les accompagner dans la préparation de leur avenir professionnel et leur projet de vie</h3></a>
           <i class="fas fa-child"></i>
         </div>
         <div id="firstMission" class="col-lg-3 mx-auto F3-3" style="background-color:#EDA25A;">
-          <h3>Lieu d'échange et de rencontre</h3>
+          <a href="missionSocial.php#gaspillage"><h3>Lieu d'échange et de rencontre</h3></a>
           <i class="fas fa-hands-helping"></i>
         </div>
       </div>

@@ -45,7 +45,7 @@
                 </div>
                 <div id="EnvOP" class="col-lg-6">
 
-                      <h1 class="animated fadeInDown">La mission Environnementale</h1>
+                      <h1 class="animated fadeInDown">La mission Économique</h1>
                       <p class="animated lightSpeedIn delay-1s">
 Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
 
@@ -69,7 +69,7 @@ Restabat ut Caesar post haec properaret accitus et abstergendae causa suspicioni
                   </div>
                 </div>
                 <div id="ressourcesNaturelles" class="col-lg-6">
-                  <h2 class="animated fadeInDown">Préserver les ressources et les milieux naturels</h2>
+                  <h2 class="animated fadeInDown">Réduire le coût de la collecte des déchets ménagers</h2>
                   <p class="animated lightSpeedIn delay-1s">
 Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
 
@@ -91,7 +91,7 @@ Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas latas
                   </div>
                 </div>
                 <div id="déchetsFeu" class="col-lg-6">
-                  <h2 class="animated fadeInDown">Réduire les volumes de déchets envoyés à l'incinération</h2>
+                  <h2 class="animated fadeInDown">Récupérer les matières premières</h2>
                   <p class="animated lightSpeedIn delay-1s">
                     Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
 
@@ -112,7 +112,7 @@ Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas latas
                   </div>
                 </div>
                 <div id="gaspillage" class="col-lg-6">
-                  <h2 class="animated fadeInDown">Réduire les gaspillages, adopter de nouveaux comportement</h2>
+                  <h2 class="animated fadeInDown">Transformer les encombrants en ressources</h2>
                   <p class="animated lightSpeedIn delay-1s">
                     Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
 

@@ -90,7 +90,6 @@ footer ul{
   padding-left: 0px;
     border-left: none;
     border-right: none;
-
 }
 
 #credit{
@@ -98,6 +97,7 @@ footer ul{
   color: whitesmoke;
   font-family: 'quickSandBold';
 }
+
 
 .socialMedia i{
   font-size: 25px;
@@ -108,4 +108,39 @@ footer ul{
 
 .socialMedia i:hover{
   color:  #71C7D5;
+}
+
+.linkOP a {
+  font-family: 'quickSandBold';
+  display: inline-block;
+  text-decoration: none;
+	color: #fff;
+	position: relative;
+  -webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+  padding: 8px;
+}
+
+.linkOP a:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	background-color: #2CC3CE;
+	width: 0;
+	left: 50%;
+	bottom: 0;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  	transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.linkOP a:hover {
+	color: #2CC3CE;
+  text-decoration: none;
+}
+
+.linkOP a:hover:after {
+	width: 100%;
 }
