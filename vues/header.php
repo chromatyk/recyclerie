@@ -16,8 +16,8 @@
   </a>
   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
     <a class="dropdown-item" href="missionEnv.php">Mission environnementale</a>
-    <a class="dropdown-item" href="#">Mission économie</a>
-    <a class="dropdown-item" href="#">Mission sociale</a>
+    <a class="dropdown-item" href="missionEco.php">Mission économie</a>
+    <a class="dropdown-item" href="missionSocial.php">Mission sociale</a>
   </div>
 </li>
       <li class="nav-item col-4 col-lg-2">

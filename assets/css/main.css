@@ -369,6 +369,10 @@ ul{ /* Petite barre sur le côté du menu */
   border-bottom: solid 1px black;
   margin-bottom: 200px;
 }
+
+#last{
+  margin-bottom: 0px;
+}
 .textAxes{
   padding-top: 8vh;
 }
@@ -425,7 +429,7 @@ ul{ /* Petite barre sur le côté du menu */
   z-index: 300;
 }
 
-#firstMission h3{
+#firstMission a h3{
   font-size: 17px;
   margin-bottom: 35px;
   font-family: 'quickSandBold';
@@ -481,4 +485,18 @@ ul{ /* Petite barre sur le côté du menu */
   text-align: center;
   padding-top: 10px;
   transform: rotate(-10deg);
+}
+
+.dropdown-menu{
+  background-color: #202020;
+}
+
+.dropdown-item, .dropdown-item{
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 800px) {
+  .dropdown-menu{
+    min-width: 15rem;
+  }
 }

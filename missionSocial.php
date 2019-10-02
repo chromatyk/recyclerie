@@ -5,7 +5,7 @@
   <!--        <meta name="generator" content="Jekyll v3.8.5" />-->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="Site de la recyclerie du Pays Noyonnais" />
+  <meta name="description" content="Mission Sociale - Site de la recyclerie du Pays Noyonnais" />
   <meta name="publisher" content="Kaiartsu">
   <meta name="author" content="Kaiartsu" />
   <meta name="reply-to" content="contact@kaiartsu.fr">
@@ -29,7 +29,7 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.php">Accueil</a></li>
-        <li class="breadcrumb-item active">Environnement</li>
+        <li class="breadcrumb-item active">Social</li>
       </ol>
     </nav>
     <!-- Fin du fil d'ariane -->
@@ -45,7 +45,7 @@
                 </div>
                 <div id="EnvOP" class="col-lg-6">
 
-                      <h1 class="animated fadeInDown">La mission Environnementale</h1>
+                      <h1 class="animated fadeInDown">La mission Sociale</h1>
                       <p class="animated lightSpeedIn delay-1s">
 Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
 
@@ -69,7 +69,7 @@ Restabat ut Caesar post haec properaret accitus et abstergendae causa suspicioni
                   </div>
                 </div>
                 <div id="ressourcesNaturelles" class="col-lg-6">
-                  <h2 class="animated fadeInDown">Préserver les ressources et les milieux naturels</h2>
+                  <h2 class="animated fadeInDown">Développer de nouveaux métiers</h2>
                   <p class="animated lightSpeedIn delay-1s">
 Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
 
@@ -91,7 +91,7 @@ Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas latas
                   </div>
                 </div>
                 <div id="déchetsFeu" class="col-lg-6">
-                  <h2 class="animated fadeInDown">Réduire les volumes de déchets envoyés à l'incinération</h2>
+                  <h2 class="animated fadeInDown">Mobiliser des jeunes et adultes en situation d'exclusion et les accompagner dans la préparation de leur avenir professionnel et leur projet de vie</h2>
                   <p class="animated lightSpeedIn delay-1s">
                     Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
 
@@ -112,7 +112,7 @@ Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas latas
                   </div>
                 </div>
                 <div id="gaspillage" class="col-lg-6">
-                  <h2 class="animated fadeInDown">Réduire les gaspillages, adopter de nouveaux comportement</h2>
+                  <h2 class="animated fadeInDown">Lieu d'échange et de rencontre</h2>
                   <p class="animated lightSpeedIn delay-1s">
                     Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
 
