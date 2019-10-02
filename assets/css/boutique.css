@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "quickSand";
+  src: url('../fonts/Quicksand-Bold.otf');
+}
+
+@font-face {
+  font-family: "quickSandBold";
+  src: url('../fonts/Quicksand-Bold.otf');
+}
+
+@font-face {
+  font-family: "quickSandRegular";
+  src: url('../fonts/Quicksand-Regular.otf');
+}
+
+@font-face {
+  font-family: "quickSandLight";
+  src: url('../fonts/Quicksand-Light.otf');
+}
+
+@font-face {
+  font-family: "quickSandItalic";
+  src: url('../fonts/Quicksand-Italic.otf');
+}
+
+body{
+  overflow-x:hidden;
+}
+.container-fluid{
+  padding:0;
+}
+.row{
+  margin: 0;
+}
+
+/* DÉBUT HEADER */
+
+.header{ /* Taille - Placement - Fond du header */
+  min-height: 40vh;
+  width: 100%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../images/Fond.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ul{ /* Petite barre sur le côté du menu */
+  border-left: solid 3px white;
+  border-right: solid 3px white;
+}
+
+.navbar{
+  padding: 0;
+  padding-top: 2em;
+}
+
+.nav-link{ /* Police des liens du menu */
+  font-family: 'quickSand';
+  font-size : calc(0.5em + 1vw);
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus { /* Couleur et soulignement du lien survolé */
+  color : #71c7d5;
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link { /* Couleur des liens du menu */
+  color : white;
+}
+
+#activePage{ /* Couleur et soulignement du lien actif du menu */
+  font-family: 'quickSand';
+  font-size : calc(0.5em + 1vw);
+  text-align: center;
+  color:#71c7d5;
+  text-decoration: underline;
+
+}
+
+.bg-light{ /* Couleur du fond du menu */
+  background-color: transparent !important;
+}
+
+#sidebar-left{ /* Barre sur le côté gauche */
+  border-top: solid 3px white;
+  border-bottom: solid 3px white;
+  height: 20px;
+}
+
+#sidebar-right{ /* Barre sur le côté droit */
+  border-top: solid 3px white;
+  border-bottom: solid 3px white;
+  height: 20px;
+}
+
+#logoHeader{  /* Taille et placement du logo dans le header */
+  width:50%;
+  display: block;
+  margin: auto;
+  margin-top : 150px;
+  margin-bottom : 50px;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+  margin-left: 20px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.scrolled{/* Couleur de fond du menu après 100 pixels */
+  background-color: #202020 !important;
+  border-bottom: 6px solid #008000;
+  padding-top: 0px;
+}
+.triObjects{
+  padding-top: 20px;
+  min-height: 75px;
+  border-bottom: solid rgba(0,0,0,0.1) 3px;
+}
+.listObjects{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card{
+  margin-left: 20px;
+  max-width: 23%;
+  padding: 0;
+}
+.macaronCat{
+	transform: translateZ(50px) translateY(-50%) translateX(-50%);
+	position: absolute;
+	top: 15%;
+	left: 15%;
+  width:50px;
+}
+.card-title{
+  text-align: center;
+  font-size: 30px;
+}
+.tilt {
+	box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+	transform-style: preserve-3d;
+}
+
+@media screen and (max-width: 991px) { /* Modification du menu sur un écran en dessous de 990px */
+  #sidebar-left, #sidebar-right{
+    display: none;
+  }
+  ul{
+    border : none;
+  }
+  .navbar-light .navbar-toggler{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #buttonNews{
+    margin-bottom: 20px;
+  }
+}
