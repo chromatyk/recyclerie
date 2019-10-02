@@ -61,7 +61,6 @@
                     </div>
                     <div class="col-7">
                       <h3 class="card-title">Article 1</h3>
-                      <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
                 </div>
@@ -79,7 +78,6 @@
                     </div>
                     <div class="col-7">
                       <h3 class="card-title">Article 2</h3>
-                      <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
                 </div>
@@ -97,7 +95,6 @@
                     </div>
                     <div class="col-7">
                       <h3 class="card-title">Article 3</h3>
-                      <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
                 </div>
@@ -115,7 +112,6 @@
                     </div>
                     <div class="col-7">
                       <h3 class="card-title">Article 4</h3>
-                      <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
                 </div>
@@ -133,7 +129,6 @@
                     </div>
                     <div class="col-7">
                       <h3 class="card-title">Article 5</h3>
-                      <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
                 </div>
@@ -151,7 +146,6 @@
                     </div>
                     <div class="col-7">
                       <h3 class="card-title">Article 6</h3>
-                      <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
                 </div>
@@ -169,7 +163,6 @@
                     </div>
                     <div class="col-7">
                       <h3 class="card-title">Article 7</h3>
-                      <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
                 </div>
@@ -187,7 +180,6 @@
                     </div>
                     <div class="col-7">
                       <h3 class="card-title">Article 8</h3>
-                      <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
                 </div>
@@ -205,7 +197,6 @@
                     </div>
                     <div class="col-7">
                       <h3 class="card-title">Article 9</h3>
-                      <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
                 </div>
@@ -223,7 +214,6 @@
                     </div>
                     <div class="col-7">
                       <h3 class="card-title">Article 10</h3>
-                      <p class="card-text">Prix : 60euros</p>
                     </div>
                   </div>
                 </div>
