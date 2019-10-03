@@ -21,16 +21,16 @@
   </div>
 </li>
       <li class="nav-item col-4 col-lg-2">
-        <a class="nav-link" href="#">Kézako</a>
+        <a class="nav-link" id="activeKezako" href="#">Kézako</a>
       </li>
       <li class="nav-item col-4 col-lg-2">
-        <a class="nav-link" href="#">Boutique</a>
+        <a class="nav-link" id="activeBoutique" href="boutique.php">Boutique</a>
       </li>
       <li class="nav-item col-4 col-lg-2">
-        <a class="nav-link" href="#">Galerie</a>
+        <a class="nav-link" id="activeGalerie" href="#">Galerie</a>
       </li>
       <li class="nav-item col-4 col-lg-2">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" id="activeContact" href="contact.php">Contact</a>
       </li>
     </ul>
       <div class="nav-item col-1"  id="sidebar-right">

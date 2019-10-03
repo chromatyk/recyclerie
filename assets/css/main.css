@@ -23,6 +23,11 @@
   src: url('../fonts/Quicksand-Italic.otf');
 }
 
+@font-face {
+  font-family: "Splatch";
+  src: url('../fonts/LifeSavers-Bold.ttf');
+}
+
 body{
   overflow-x:hidden;
 }
@@ -32,6 +37,32 @@ body{
 .row{
   margin: 0;
 }
+
+.breadcrumb{
+  background-color: #71c7d5;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background-position: 0 100%, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 10px;
+    background-image: linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%), linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%);
+    margin-bottom: 0;
+}
+
+
+
+.breadcrumb-item{
+  font-family: 'quicksandRegular';
+  font-size: 20px;
+}
+
+.breadcrumb-item a{
+  color: white;
+}
+
+
+
+
 
 /* DÉBUT HEADER */
 

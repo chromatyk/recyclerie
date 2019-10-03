@@ -9,16 +9,16 @@
   <meta name="publisher" content="Kaiartsu">
   <meta name="author" content="Kaiartsu" />
   <meta name="reply-to" content="contact@kaiartsu.fr">
-  <title>Partenaires | Recyclerie du Pays Noyonnais | Hauts-de-France</title>
+  <title>Mission Environnementale | Recyclerie du Pays Noyonnais | Hauts-de-France</title>
   <!-- Link CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <link rel="shortcut icon" type="assets/images/favicon.png" href="assets/images/favicon.png"/>
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
   <link href="assets/css/missionEnv.css" rel="stylesheet" type="text/css"/>
   <link href="assets/css/footer.css" rel="stylesheet" type="text/css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
   <div class="container-fluid">
@@ -29,6 +29,7 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.php">Accueil</a></li>
+        <li class="breadcrumb-item"><a href="missions.php">Missons</a></li>
         <li class="breadcrumb-item active">Environnement</li>
       </ol>
     </nav>

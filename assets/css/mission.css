@@ -1,0 +1,126 @@
+#titrePage{
+  text-align: center;
+  font-family: 'quickSandBold';
+  padding: 30px;
+}
+
+#missionEnv{
+  text-align: center;
+  background-image: url('../images/montagnes.png');
+  background-position: center center;
+  background-size: cover;
+  height: 250px;
+  color: whitesmoke;
+  font-family: 'Splatch';
+  padding-left: 0;
+  padding-right: 0;
+  width: 100vw;
+}
+
+.fondColorEnv{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding-top: 100px;
+  width: 100%;
+}
+
+#missionEco{
+  text-align: center;
+  background-image: url('../images/dechets.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-color: blue;
+  height: 250px;
+  color: whitesmoke;
+  font-family: 'Splatch';
+  padding-left: 0;
+  padding-right: 0;
+  width: 100vw;
+}
+
+.fondColorEco{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding-top: 100px;
+  width: 100%;
+}
+
+#missionSociale{
+  text-align: center;
+  background-image: url('../images/recyclage.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-color: green;
+  height: 250px;
+  color: whitesmoke;
+  font-family: 'Splatch';
+  padding-left: 0;
+  padding-right: 0;
+  width: 100vw;
+}
+
+.fondColorSociale{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.animated.delay-02s{
+  -webkit-animation-delay:200ms;
+  animation-delay:200ms;
+}
+
+.animated.delay-04s{
+  -webkit-animation-delay:400ms;
+  animation-delay:400ms;
+}
+
+.linkOP {
+  display: inline-block;
+  text-decoration: none;
+	position: relative;
+  -webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+  padding: 8px;
+}
+
+.linkOP:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	background-color: #2CC3CE;
+	width: 0;
+	left: 50%;
+	bottom: 0;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  	transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.linkOP:hover {
+	color: #2CC3CE;
+  text-decoration: none;
+}
+
+.linkOP:hover:after {
+	width: 100%;
+}
+
+#activePage{
+  font-family: 'quickSand';
+  font-size : calc(0.5em + 1vw);
+  text-align: center;
+  color:whitesmoke;
+  text-decoration: none;
+}
+
+#navbarDropdown{
+  font-family: 'quickSand';
+  font-size : calc(0.5em + 1vw);
+  text-align: center;
+  color:#71c7d5;
+  text-decoration: underline;
+}

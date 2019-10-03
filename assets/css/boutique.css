@@ -70,13 +70,21 @@ ul{ /* Petite barre sur le côté du menu */
   color : white;
 }
 
-#activePage{ /* Couleur et soulignement du lien actif du menu */
+
+#activePage{
+  font-family: 'quickSand';
+  font-size : calc(0.5em + 1vw);
+  text-align: center;
+  color:whitesmoke;
+  text-decoration: none;
+}
+
+#activeBoutique{
   font-family: 'quickSand';
   font-size : calc(0.5em + 1vw);
   text-align: center;
   color:#71c7d5;
   text-decoration: underline;
-
 }
 
 .bg-light{ /* Couleur du fond du menu */
