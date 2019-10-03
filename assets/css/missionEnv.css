@@ -188,3 +188,20 @@
   text-align: left;
   font-size: 16px;
 }
+
+
+#activePage{
+  font-family: 'quickSand';
+  font-size : calc(0.5em + 1vw);
+  text-align: center;
+  color:whitesmoke;
+  text-decoration: none;
+}
+
+#navbarDropdown{
+  font-family: 'quickSand';
+  font-size : calc(0.5em + 1vw);
+  text-align: center;
+  color:#71c7d5;
+  text-decoration: underline;
+}

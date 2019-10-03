@@ -9,7 +9,7 @@
   <meta name="publisher" content="Kaiartsu">
   <meta name="author" content="Kaiartsu" />
   <meta name="reply-to" content="contact@kaiartsu.fr">
-  <title>Partenaires | Recyclerie du Pays Noyonnais | Hauts-de-France</title>
+  <title>Mission Sociale | Recyclerie du Pays Noyonnais | Hauts-de-France</title>
   <!-- Link CSS -->
   <link rel="shortcut icon" type="assets/images/favicon.png" href="assets/images/favicon.png"/>
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
@@ -29,7 +29,8 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.php">Accueil</a></li>
-        <li class="breadcrumb-item active">Social</li>
+        <li class="breadcrumb-item"><a href="missions.php">Missons</a></li>
+        <li class="breadcrumb-item active">Mission sociale</li>
       </ol>
     </nav>
     <!-- Fin du fil d'ariane -->
