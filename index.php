@@ -24,18 +24,20 @@
     <?php
     include 'vues/header.php';
     ?>
-    <div class="newsAlerte" style="background-image:url('assets/images/news.jpg');">
-      <div class="newsAlerte pictureFilter">
-        <div class="row">
-          <div class="mx-auto" id="title">
-            <p>
-              Titre de la News
-            </p>
+    <div class="news">
+      <div class="newsAlerte" style="background-image:url('assets/images/news.jpg');">
+        <div class="newsAlerte pictureFilter">
+          <div class="row">
+            <div class="mx-auto" id="title">
+              <p>
+                Titre de la News
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="mx-auto">
-            <button id="buttonNews" class="fill" onclick="window.location.href='allArticles.php'">En savoir plus</button>
+          <div class="row">
+            <div class="mx-auto">
+              <button id="buttonNews" class="fill" onclick="window.location.href='allArticles.php'">En savoir plus</button>
+            </div>
           </div>
         </div>
       </div>
@@ -264,6 +266,11 @@
     </div>
     <div class="missionRecyclerie">
       <h2>Nos missions principales</h2>
+      <div class="video-container">
+  <video autoplay poster="" class="video-parallax" loop muted>
+<source src="assets/video/videoFond.mp4" type="video/mp4">
+  </video>
+</div>
       <div class="row lineAxes">
         <div class="col-lg-3 imgMission">
           <img src="assets/images/economie.jpg" alt="">
@@ -326,8 +333,8 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.1039563402064!2d3.000828416039543!3d49.576927979364385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e873da4d530e49%3A0x508ab07261e78522!2sLa%20Recyclerie%20du%20Pays%20Noyonnais!5e0!3m2!1sfr!2sfr!4v1568632016544!5m2!1sfr!2sfr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      <div class="col-12 maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.1039563402064!2d3.000828416039543!3d49.576927979364385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e873da4d530e49%3A0x508ab07261e78522!2sLa%20Recyclerie%20du%20Pays%20Noyonnais!5e0!3m2!1sfr!2sfr!4v1568632016544!5m2!1sfr!2sfr" width="100%" height="480" frameborder="10" style="border:10px;" allowfullscreen=""></iframe>
       </div>
     </div>
   </div>

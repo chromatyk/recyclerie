@@ -4,6 +4,10 @@
   padding: 30px;
 }
 
+#titrePage h1{
+  font-size: calc(3em + 1vw);
+}
+
 #missionEnv{
   text-align: center;
   background-image: url('../images/montagnes.png');

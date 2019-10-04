@@ -246,6 +246,7 @@ ul{ /* Petite barre sur le côté du menu */
 .lastProducts{
   min-height: 40vh;
   width: 100%;
+  background-color: whitesmoke;
 }
 
 .carourou{
@@ -253,9 +254,8 @@ ul{ /* Petite barre sur le côté du menu */
 }
 
 #newsProducts{
-  font-size: calc(2em + 1vw);
+  font-size: calc(3em + 1vw);
   font-family: 'quickSand';
-  color: black;
   margin-top: 20px;
 }
 
@@ -414,10 +414,12 @@ ul{ /* Petite barre sur le côté du menu */
 }
 
 .missionRecyclerie h2{
-  font-family: 'quickSand';
-  font-size: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-family: 'quickSandBold';
+  font-size: calc(3em + 1vw);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: whitesmoke;
+  margin-bottom: 0;
 }
 
 .imgMission{
@@ -530,4 +532,38 @@ ul{ /* Petite barre sur le côté du menu */
   .dropdown-menu{
     min-width: 15rem;
   }
+}
+
+.missionRecyclerie{
+  position: relative;
+}
+
+video {
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+
+.video-parallax {
+    -webkit-transition-position: fixed;
+    position: fixed;
+}
+
+.news{
+  background-color: whitesmoke;
+  min-height: 10vw;
+  z-index: -50;
+}
+
+.maps{
+  padding: 0;
+  background-color: whitesmoke;
 }
