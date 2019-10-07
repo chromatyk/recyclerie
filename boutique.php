@@ -49,24 +49,25 @@ include_once 'controlers/shopControler.php';
           <?php
           foreach ($allProducts as $allProducts) {
             ?>
-            <div class="card col-12 tilt tilt-logo" style="width: 18rem;" data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
-              <img class="card-img-top" src="assets/images/<?= $allProducts->mainPicture ?>" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-title"><?= $allProducts->name ?></p>
-              </div>
-              <?php
-              if ($allProducts->idCategorie == 1) {
-              ?>
-              <img src="assets/images/vintage.png" class="macaronCat" alt="...">
-              <?php
-            }elseif ($allProducts->idCategorie == 2) {
-              ?>
-            <img src="assets/images/moderne.png" class="macaronCat" alt="...">
-            <?php
-            }
-              ?>
 
-            </div>
+              <a href="product.php?idProduct=<?= $allProducts->id ?>" class="card col-12 tilt tilt-logo" style="width: 18rem;" data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
+                <img class="card-img-top" src="assets/images/<?= $allProducts->mainPicture ?>" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title"><?= $allProducts->name ?></p>
+                </div>
+                <?php
+                if ($allProducts->idCategorie == 1) {
+                ?>
+                <img src="assets/images/vintage.png" class="macaronCat" alt="...">
+                <?php
+              }elseif ($allProducts->idCategorie == 2) {
+                ?>
+              <img src="assets/images/moderne.png" class="macaronCat" alt="...">
+              <?php
+              }
+                ?>
+
+              </a>
             <?php
           }
           ?>
