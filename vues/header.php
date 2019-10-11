@@ -39,7 +39,7 @@
 </nav>
 <div class="row">
   <div class="offset-md-3 col-md-6 offset-lg-4 col-lg-4">
-  <h1><img id ="logoHeader" src="assets/images/Logo.png" alt="La recyclerie du pays Noyonnais" title="logo recyclerie pays noyonnais"></h1>
+  <h1><img id ="logoHeader" src="assets/images/Logo-B.png" alt="La recyclerie du pays Noyonnais" title="logo recyclerie pays noyonnais"></h1>
   </div>
 </div>
 </header>

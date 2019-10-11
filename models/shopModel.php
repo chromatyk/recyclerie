@@ -36,6 +36,11 @@ class shop extends dataBase {
         $productInfos->execute();
         return $productInfos = $productInfos->fetchAll(PDO::FETCH_OBJ);
     }
+    public function lastTenproducts() {
+        $allProducts = $this->db->query('SELECT `id`,`name`, `description`, `mainPicture`, `addDate`, `idWorker`, `idCategorie` FROM `products` ORDER BY `addDate` DESC LIMIT 10');
+        $allProducts->execute();
+        return $allProducts = $allProducts->fetchAll(PDO::FETCH_OBJ);
+    }
     public function __destruct() {
 
     }
