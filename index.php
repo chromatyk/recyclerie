@@ -17,6 +17,11 @@
   <link href="assets/css/footer.css" rel="stylesheet" type="text/css"/>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
+<?php
+include_once 'models/dataBase.php';
+include_once 'models/shopModel.php';
+include_once 'controlers/carouselControler.php';
+?>
 <body>
   <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v4.0"></script>
@@ -49,179 +54,32 @@
         </div>
       </div>
       <div class="row">
+
         <div class="col-12 carourou">
           <div id="carousel">
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
+            <?php foreach ($allProducts as $allProducts){ ?>
+            <div class="" style="width: 18rem;">
+              <a href="product.php?idProduct=<?= $allProducts->id ?>" class="card tilt tilt-logo"  data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
+                <img class="card-img-top" src="assets/images/<?= $allProducts->mainPicture ?>" alt="Card image cap">
                 <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 1</h3>
-                    </div>
-                  </div>
+                  <p class="card-title"><?= $allProducts->name ?></p>
                 </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 2</h3>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 3</h3>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 4</h3>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 5</h3>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 6</h3>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 7</h3>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 8</h3>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 9</h3>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <a href="product.php">
-                <img src="assets/images/objet.jpeg" class="card-img-top" alt="imag objet">
-                <div class="card-body">
-                  <div class="vintage">
-                  </div>
-                  <div id="row" class="row">
-                    <div class="col-5">
-                      <img id="macaron" src="assets/images/Macaron_Vintage.png" alt="">
-                    </div>
-                    <div class="col-7">
-                      <h3 class="card-title">Article 10</h3>
-                    </div>
-                  </div>
-                </div>
+                <?php
+                if ($allProducts->idCategorie == 1) {
+                ?>
+                <img src="assets/images/vintage.png" class="macaronCat" alt="...">
+                <?php
+              }elseif ($allProducts->idCategorie == 2) {
+                ?>
+              <img src="assets/images/moderne.png" class="macaronCat" alt="...">
+              <?php
+              }
+                ?>
+
               </a>
             </div>
 
+            <?php } ?>
           </div>
         </div>
       </div>
@@ -242,7 +100,7 @@
                 <div class="row">
                   <div class="col-12 offset-lg-2 col-lg-4 textHours">
                     <p class="upHours">Dépôts:</p>
-                    <p>Du Lundi au Vendredi <br> de 8h30 à 12h15 et de 13h30 à 17h15</p>
+                    <p>Du Lundi au Vendredi <br> de 8h30 à 12h15 <br> et de 13h30 à 17h15</p>
                     <p>Le Samedi de 10h à 17h</p>
                   </div>
                   <div class="col-12 offset-lg-2 col-lg-4 textHours">
@@ -344,5 +202,6 @@
   <script src="assets/lib/bootstrap/js/bootstrap.js" type="text/javascript" /></script>
   <script src="assets/js/main.js" type="text/javascript"></script>
   <script src="assets/js/jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
+  <script src="assets/js/tilt.js"></script>
 </body>
 </html>
